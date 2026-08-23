@@ -11,8 +11,8 @@ node_modules/
 backend/logs/
 logs/
 
-# Hostinger zips exceed GitHub's 100 MB limit
-production/*.zip
+# Local Hostinger packs and SQL dumps — keep on disk, not on GitHub
+production/
 
 # OS / editor
 .DS_Store
