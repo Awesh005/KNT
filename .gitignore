@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs (Winston files here are multi-GB)
+*.log
+backend/logs/
+logs/
+
+# Hostinger zips exceed GitHub's 100 MB limit
+production/*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

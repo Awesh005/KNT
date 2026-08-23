@@ -1,0 +1,1049 @@
+{
+  "users": [
+    {
+      "id": "USR-001",
+      "name": "Admin User",
+      "email": "admin@kindsupport.org",
+      "role": "Admin",
+      "status": "active",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "USR-002",
+      "name": "John Donor",
+      "email": "john@example.com",
+      "role": "Donor",
+      "status": "active",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "CMP-001",
+      "title": "Save Little Aarav",
+      "story": "Aarav is a 5-year-old bright and cheerful boy who loves playing with his toy cars and dreams of becoming a pilot one day. However, his dreams and life have come to a sudden halt. Recently, he was diagnosed with a severe congenital heart defect that requires urgent open-heart surgery.\n\nHis condition is deteriorating rapidly. He gets breathless even while walking a few steps and his energy levels have dropped significantly. The doctors have advised that the surgery needs to be performed within the next few weeks to save his life.\n\nHis parents, Ramesh and Priya, belong to a lower-middle-class family. Ramesh works as a daily wage earner and Priya is a homemaker. They have already exhausted all their meager savings and borrowed from friends and family for Aarav's preliminary tests and medications. \n\nThe estimated cost of the surgery is ₹5,00,000, a sum that is astronomically high for the family. They have nowhere else to turn and are desperately seeking financial help to save their only child. \n\nEvery small contribution will bring Aarav a step closer to a healthy life. Please open your hearts and donate generously to help Aarav get the surgery he urgently needs. Your support can give him a second chance at life.",
+      "coverImage": "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 500000,
+      "raisedAmount": 250000,
+      "status": "approved",
+      "createdBy": "USR-001",
+      "creatorName": "Ravi Kumar",
+      "category": "Medical",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-002",
+      "title": "Support Aarav Sharma's B.Tech Education",
+      "story": "Aarav is a bright student who has secured admission in IIT Delhi but his family cannot afford the fees. Help him achieve his dream of becoming a software engineer.",
+      "coverImage": "https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 150000,
+      "raisedAmount": 90000,
+      "status": "approved",
+      "createdBy": "USR-001",
+      "creatorName": "Priya Desai",
+      "category": "Education",
+      "studentDetails": {
+        "course": "B.Tech Computer Science",
+        "institution": "Indian Institute of Technology, Delhi",
+        "progressUpdates": [
+          "Secured 9.2 CGPA in Semester 3",
+          "Completed internship at Tech Mahindra"
+        ]
+      },
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-003",
+      "title": "Help Priya Fight Cancer",
+      "story": "Priya, a 28-year-old mother, was recently diagnosed with Stage 3 Breast Cancer. Help fund her chemotherapy.",
+      "coverImage": "https://images.unsplash.com/photo-1584515933487-779824d29309?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 1500000,
+      "raisedAmount": 800000,
+      "status": "approved",
+      "createdBy": "USR-002",
+      "creatorName": "Anjali Verma",
+      "category": "Medical",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-004",
+      "title": "Support Flood Victims in Assam",
+      "story": "Devastating floods have displaced thousands. Your contribution will provide food, shelter, and medical kits.",
+      "coverImage": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 2000000,
+      "raisedAmount": 1200000,
+      "status": "approved",
+      "createdBy": "USR-001",
+      "creatorName": "Ravi Kumar",
+      "category": "Disaster Relief",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-005",
+      "title": "Memorial Fund for Late Mr. Sharma",
+      "story": "A sudden tragedy took Mr. Sharma away. We are raising funds to support his wife and two young children.",
+      "coverImage": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 1000000,
+      "raisedAmount": 450000,
+      "status": "approved",
+      "createdBy": "USR-002",
+      "creatorName": "Sunita Sharma",
+      "category": "Memorial",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-006",
+      "title": "Wheelchair Support for Disabled Children",
+      "story": "Aiming to provide 50 customized wheelchairs for underprivileged children with mobility challenges.",
+      "coverImage": "https://images.unsplash.com/photo-1571520667794-ffb4b4556488?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 800000,
+      "raisedAmount": 300000,
+      "status": "approved",
+      "createdBy": "USR-001",
+      "creatorName": "Dr. Ramesh",
+      "category": "Medical",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-007",
+      "title": "Winter Clothes Drive for Homeless",
+      "story": "Help us distribute warm blankets and clothes to the homeless before the harsh winter begins.",
+      "coverImage": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 300000,
+      "raisedAmount": 250000,
+      "status": "approved",
+      "createdBy": "USR-001",
+      "creatorName": "Ravi Kumar",
+      "category": "Other",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-008",
+      "title": "Support Priya Patel's Medical Education",
+      "story": "Priya has cleared NEET with a top rank and got a seat in AIIMS. However, she needs support for her hostel and books. Your donation will help India get a brilliant doctor.",
+      "coverImage": "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop",
+      "targetAmount": 200000,
+      "raisedAmount": 150000,
+      "status": "approved",
+      "createdBy": "USR-002",
+      "creatorName": "Anjali Verma",
+      "category": "Education",
+      "studentDetails": {
+        "course": "MBBS",
+        "institution": "AIIMS, New Delhi",
+        "progressUpdates": [
+          "Top 10 in Anatomy practicals",
+          "Volunteering at rural health camp"
+        ]
+      },
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-009",
+      "title": "Nutrition for Street Children",
+      "story": "We are providing daily nutritious meals to 500 street children in the slums of Mumbai.",
+      "coverImage": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070&auto=format&fit=crop",
+      "targetAmount": 300000,
+      "raisedAmount": 180000,
+      "status": "approved",
+      "createdBy": "USR-002",
+      "creatorName": "Dr. Ramesh",
+      "category": "Children",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    },
+    {
+      "id": "CMP-010",
+      "title": "Shelter for Stray Dogs",
+      "story": "Help us build a safe shelter and provide medical care for injured stray animals in Delhi.",
+      "coverImage": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=2069&auto=format&fit=crop",
+      "targetAmount": 500000,
+      "raisedAmount": 120000,
+      "status": "approved",
+      "createdBy": "USR-001",
+      "creatorName": "Sunita Sharma",
+      "category": "Animals",
+      "createdAt": "2026-08-01T05:36:52.345Z"
+    }
+  ],
+  "donations": [
+    {
+      "id": "DON-001",
+      "donorId": "USR-002",
+      "donorName": "Aarti Desai",
+      "campaignId": "CMP-001",
+      "amount": 5000,
+      "status": "verified",
+      "paymentRef": "UPI123456789",
+      "donatedAt": "2026-07-31T01:50:12.345Z"
+    },
+    {
+      "id": "DON-002",
+      "donorName": "Rahul V.",
+      "campaignId": "CMP-001",
+      "amount": 2500,
+      "status": "verified",
+      "paymentRef": "UPI987654321",
+      "donatedAt": "2026-07-29T22:03:32.345Z"
+    },
+    {
+      "id": "DON-003",
+      "donorId": "USR-003",
+      "donorName": "Sneha Patel",
+      "campaignId": "CMP-001",
+      "amount": 10000,
+      "status": "verified",
+      "paymentRef": "UPI555555555",
+      "donatedAt": "2026-07-28T18:16:52.345Z"
+    },
+    {
+      "id": "DON-004",
+      "donorName": "Anonymous",
+      "campaignId": "CMP-001",
+      "amount": 1500,
+      "status": "verified",
+      "paymentRef": "UPI444444444",
+      "donatedAt": "2026-07-27T14:30:12.345Z"
+    },
+    {
+      "id": "DON-005",
+      "donorName": "Vikas Kumar",
+      "campaignId": "CMP-001",
+      "amount": 5000,
+      "status": "verified",
+      "paymentRef": "UPI333333333",
+      "donatedAt": "2026-07-26T10:43:32.345Z"
+    }
+  ],
+  "certificates": [
+    {
+      "id": "CERT-001",
+      "title": "CERTIFICATE OF INCORPORATION",
+      "imageUrl": "/uploads/certificates/cert-1785777357262-561217180.jpeg"
+    }
+  ],
+  "gallery": {
+    "images": [
+      {
+        "id": 1,
+        "url": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800",
+        "title": "Community Outreach"
+      },
+      {
+        "id": 2,
+        "url": "https://images.unsplash.com/photo-1593113565694-c6f170a48721?auto=format&fit=crop&q=80&w=800",
+        "title": "Food Distribution"
+      },
+      {
+        "id": 3,
+        "url": "https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&q=80&w=800",
+        "title": "Medical Camp"
+      },
+      {
+        "id": 4,
+        "url": "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=800",
+        "title": "Education Drive"
+      },
+      {
+        "id": 5,
+        "url": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800",
+        "title": "Volunteer Work"
+      },
+      {
+        "id": 6,
+        "url": "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&q=80&w=800",
+        "title": "Health Checkup"
+      }
+    ],
+    "videos": [
+      {
+        "id": 1,
+        "url": "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?auto=format&fit=crop&q=80&w=800",
+        "title": "Annual Event Highlights",
+        "isVideo": true,
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+      },
+      {
+        "id": 2,
+        "url": "https://images.unsplash.com/photo-1531844251246-9a1bfaae09fc?auto=format&fit=crop&q=80&w=800",
+        "title": "Beneficiary Stories",
+        "isVideo": true,
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+      },
+      {
+        "id": 3,
+        "url": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&q=80&w=800",
+        "title": "Health Camp Video",
+        "isVideo": true,
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+      },
+      {
+        "id": 4,
+        "url": "https://images.unsplash.com/photo-1525026198548-4baa0d2f14e3?auto=format&fit=crop&q=80&w=800",
+        "title": "Volunteer Experience",
+        "isVideo": true,
+        "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4"
+      }
+    ]
+  },
+  "partners": {
+    "sponsors": [
+      {
+        "id": 1,
+        "name": "Google",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Microsoft",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Amazon",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+        "link": "#"
+      },
+      {
+        "id": 4,
+        "name": "Tata",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_logo.svg",
+        "link": "#"
+      },
+      {
+        "id": 5,
+        "name": "IBM",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
+        "link": "#"
+      },
+      {
+        "id": 6,
+        "name": "Infosys",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+        "link": "#"
+      }
+    ],
+    "hospitals": [
+      {
+        "id": 1,
+        "name": "City General Hospital",
+        "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80&w=400",
+        "location": "New Delhi",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Apollo Hospitals",
+        "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=400",
+        "location": "Mumbai",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Fortis Healthcare",
+        "image": "https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&q=80&w=400",
+        "location": "Bangalore",
+        "link": "#"
+      },
+      {
+        "id": 4,
+        "name": "Max Super Specialty",
+        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=400",
+        "location": "Pune",
+        "link": "#"
+      },
+      {
+        "id": 5,
+        "name": "Rural Health Mission",
+        "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
+        "location": "Rajasthan",
+        "link": "#"
+      }
+    ],
+    "ngos": [
+      {
+        "id": 1,
+        "name": "Save The Children",
+        "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=400",
+        "location": "Global",
+        "link": "#"
+      },
+      {
+        "id": 2,
+        "name": "Smile Foundation",
+        "image": "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=400",
+        "location": "India",
+        "link": "#"
+      },
+      {
+        "id": 3,
+        "name": "Oxfam India",
+        "image": "https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&q=80&w=400",
+        "location": "National",
+        "link": "#"
+      },
+      {
+        "id": 4,
+        "name": "Care India",
+        "image": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&q=80&w=400",
+        "location": "Multiple States",
+        "link": "#"
+      },
+      {
+        "id": 5,
+        "name": "Goonj",
+        "image": "https://images.unsplash.com/photo-1593113565694-c6f170a48721?auto=format&fit=crop&q=80&w=400",
+        "location": "New Delhi",
+        "link": "#"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "id": 1,
+      "title": "KNT GLOBAL UNIVERSITY",
+      "description": "A 10,000 acre world-class university offering quality education, research and global opportunities.",
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=800",
+      "icon": "graduation-cap",
+      "detail": {
+        "introduction": "KNT Global University is conceived as a premier global institution designed to nurture future leaders through world-class education, research, and innovation. Set across a massive 10,000-acre campus, it aims to provide an ecosystem where academic excellence meets holistic character development.",
+        "quote": "Education is the most powerful weapon which you can use to change the world.",
+        "keyFocusAreas": [
+          "Global Academic Standards",
+          "State-of-the-Art Research",
+          "Holistic Student Development",
+          "International Collaborations",
+          "Sustainable Campus"
+        ],
+        "objectives": [
+          "To establish a world-class educational hub accessible to all.",
+          "To promote advanced research in science, technology, and humanities.",
+          "To build a globally recognized faculty and student exchange program."
+        ],
+        "implementationPlan": [
+          "Phase 1: Land acquisition and master planning.",
+          "Phase 2: Construction of core academic blocks and hostels.",
+          "Phase 3: Faculty recruitment and international partnerships.",
+          "Phase 4: Launch of undergraduate and postgraduate programs."
+        ],
+        "budgetAreas": [
+          "Land and Infrastructure Development",
+          "Research Laboratories and Equipment",
+          "Digital Library and IT Infrastructure",
+          "Scholarships and Endowment Funds"
+        ],
+        "expectedImpact": [
+          "Empower thousands of students with global standard education.",
+          "Create a hub for breakthrough research and innovation.",
+          "Generate widespread employment opportunities in the education sector."
+        ],
+        "futureVision": "The future vision for KNT Global University is to rank among the top 100 universities worldwide, producing graduates who are not only academically proficient but also deeply rooted in values and social responsibility."
+      }
+    },
+    {
+      "id": 2,
+      "title": "MEGA GAUSHALA & COW RESEARCH UNIVERSITY",
+      "description": "World's largest Gaushala with research university for cow science, Ayurveda & sustainable farming.",
+      "image": "https://images.unsplash.com/photo-1596733430284-f74372752061?auto=format&fit=crop&q=80&w=800",
+      "icon": "sprout",
+      "detail": {
+        "introduction": "The Mega Gaushala & Cow Research University project is a pioneering initiative dedicated to the protection, welfare, and scientific study of cows. It integrates traditional wisdom with modern veterinary science to promote Ayurveda, sustainable organic farming, and animal welfare on an unprecedented scale.",
+        "quote": "Compassion for animals is intimately associated with goodness of character.",
+        "keyFocusAreas": [
+          "Cow Shelter & Welfare",
+          "Veterinary Research & Care",
+          "Ayurvedic Medicine Production",
+          "Organic Farming Training",
+          "Sustainable Biogas Energy"
+        ],
+        "objectives": [
+          "To provide a safe, healthy, and loving environment for thousands of cows.",
+          "To conduct scientific research on cow-based agriculture and health products.",
+          "To train farmers in sustainable, chemical-free organic farming."
+        ],
+        "implementationPlan": [
+          "Design and construct eco-friendly cow shelters with modern amenities.",
+          "Establish a dedicated veterinary hospital and research labs.",
+          "Set up biogas plants for renewable energy generation.",
+          "Launch academic courses on cow science and organic agriculture."
+        ],
+        "budgetAreas": [
+          "Shelter Construction and Maintenance",
+          "Veterinary Medical Equipment",
+          "Fodder Procurement and Farming",
+          "Research and Academic Facilities"
+        ],
+        "expectedImpact": [
+          "Rescue and rehabilitate thousands of stray and abandoned cows.",
+          "Promote natural farming, leading to healthier crops and soil.",
+          "Create a self-sustaining ecosystem powered by biogas and organic manure."
+        ],
+        "futureVision": "To become a global center of excellence for cow science and sustainable living, demonstrating how traditional ecological practices can solve modern agricultural and environmental challenges."
+      }
+    },
+    {
+      "id": 3,
+      "title": "ANATHALAYA CITY",
+      "description": "A model city for orphans providing education, care, values and a bright future.",
+      "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800",
+      "icon": "baby",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 4,
+      "title": "VRIDDHA ASHRAM",
+      "description": "A loving home for senior citizens with healthcare, respect, dignity and spiritual care.",
+      "image": "https://images.unsplash.com/photo-1516281788220-43eb25a6f2bd?auto=format&fit=crop&q=80&w=800",
+      "icon": "users",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 5,
+      "title": "HEALTHCARE & HOSPITAL MISSION",
+      "description": "Multi-specialty hospitals & mobile medical units for accessible and affordable healthcare for all.",
+      "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800",
+      "icon": "hospital",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 6,
+      "title": "EDUCATION FOR ALL & DIGITAL LEARNING",
+      "description": "Promoting quality education for all through digital learning, smart classes and scholarships.",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800",
+      "icon": "book-open",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 7,
+      "title": "SKILL DEVELOPMENT & EMPLOYMENT GENERATION",
+      "description": "Vocational training, industry tie-ups and job placement to empower youth with skills.",
+      "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+      "icon": "wrench",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 8,
+      "title": "WOMEN & CHILD DEVELOPMENT",
+      "description": "Empowering women and protecting children through education, health, skills and awareness programs.",
+      "image": "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&q=80&w=800",
+      "icon": "heart-handshake",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 9,
+      "title": "AGRICULTURE & RURAL DEVELOPMENT",
+      "description": "Promoting organic farming, modern techniques and rural infrastructure for farmer prosperity.",
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=800",
+      "icon": "tractor",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 10,
+      "title": "SPIRITUAL & MEDITATION VALLEY",
+      "description": "A serene spiritual valley for yoga, meditation, wellness and inner peace for all.",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800",
+      "icon": "flower2",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 11,
+      "title": "ENVIRONMENTAL SUSTAINABILITY & WATER CONSERVATION",
+      "description": "Conserving nature, water, and biodiversity for a green, clean and sustainable future.",
+      "image": "https://images.unsplash.com/photo-1470071131384-001b85755b36?auto=format&fit=crop&q=80&w=800",
+      "icon": "droplet",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    },
+    {
+      "id": 12,
+      "title": "SMART VILLAGE DEVELOPMENT",
+      "description": "Building model smart villages with infrastructure, clean energy, digital connectivity and self-reliance.",
+      "image": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&q=80&w=800",
+      "icon": "home",
+      "detail": {
+        "introduction": "This project is a core part of our mission to deliver high-quality, impactful service to vulnerable communities. It is designed with deep empathy and strict operational discipline to ensure long-term, scalable welfare.",
+        "quote": "Service becomes powerful when vision, planning and action work together.",
+        "keyFocusAreas": [
+          "Community Engagement",
+          "Resource Allocation",
+          "Sustainable Operations",
+          "Impact Measurement",
+          "Strategic Partnerships"
+        ],
+        "objectives": [
+          "To create a scalable and transparent service model.",
+          "To serve vulnerable communities with dignity and discipline.",
+          "To document progress and improve operational efficiency every year."
+        ],
+        "implementationPlan": [
+          "Survey the target area and identify beneficiaries.",
+          "Prepare site plan, resources, staff, and partner list.",
+          "Execute pilot activities, document photographs and feedback.",
+          "Scale the model phase-wise with strict budget discipline."
+        ],
+        "budgetAreas": [
+          "Infrastructure and Site Development",
+          "Equipment and Necessary Technology",
+          "Human Resources and Specialized Training",
+          "Operations, Maintenance, and Monitoring"
+        ],
+        "expectedImpact": [
+          "Direct, measurable support to vulnerable beneficiaries.",
+          "Improved access to essential services and opportunities.",
+          "Stronger community trust and documented progress for authorities."
+        ],
+        "futureVision": "The future vision is to develop a disciplined, measurable, and inspirational project that can expand from local service to district, state, national, and global levels. The goal is not only to start an activity, but to create a sustainable model that can serve humanity for generations."
+      }
+    }
+  ],
+  "careers": [
+    {
+      "id": "job-1",
+      "title": "Project Manager",
+      "vacancies": 100,
+      "qualifications": "Graduate / Post Graduate with project supervision ability",
+      "salaryRange": "Rs. 30,000 - 45,000",
+      "isActive": true
+    },
+    {
+      "id": "job-2",
+      "title": "District Coordinator",
+      "vacancies": 250,
+      "qualifications": "Graduate with coordination and reporting skills",
+      "salaryRange": "Rs. 25,000 - 35,000",
+      "isActive": true
+    },
+    {
+      "id": "job-3",
+      "title": "Block Coordinator",
+      "vacancies": 800,
+      "qualifications": "12th / Graduate with field coordination ability",
+      "salaryRange": "Rs. 18,000 - 30,000",
+      "isActive": true
+    },
+    {
+      "id": "job-4",
+      "title": "Office Assistant",
+      "vacancies": 700,
+      "qualifications": "12th / Graduate with office work knowledge",
+      "salaryRange": "Rs. 12,000 - 22,000",
+      "isActive": true
+    },
+    {
+      "id": "job-5",
+      "title": "Computer Operator",
+      "vacancies": 700,
+      "qualifications": "Computer typing, MS Office, email and internet knowledge",
+      "salaryRange": "Rs. 12,000 - 25,000",
+      "isActive": true
+    },
+    {
+      "id": "job-6",
+      "title": "Accountant",
+      "vacancies": 150,
+      "qualifications": "Commerce background / Tally / accounting knowledge",
+      "salaryRange": "Rs. 20,000 - 35,000",
+      "isActive": true
+    },
+    {
+      "id": "job-7",
+      "title": "Field Officer",
+      "vacancies": 2000,
+      "qualifications": "Field work, public communication and reporting ability",
+      "salaryRange": "Rs. 12,000 - 25,000",
+      "isActive": true
+    },
+    {
+      "id": "job-8",
+      "title": "Social Worker",
+      "vacancies": 2500,
+      "qualifications": "Social service interest, community support and mobilisation skill",
+      "salaryRange": "Rs. 12,000 - 22,000",
+      "isActive": true
+    },
+    {
+      "id": "job-9",
+      "title": "HR Executive",
+      "vacancies": 100,
+      "qualifications": "Graduate / MBA preferred; recruitment and documentation skill",
+      "salaryRange": "Rs. 20,000 - 35,000",
+      "isActive": true
+    },
+    {
+      "id": "job-10",
+      "title": "Community Worker / Volunteer",
+      "vacancies": 2700,
+      "qualifications": "Local area knowledge, service attitude and basic documentation",
+      "salaryRange": "Rs. 12,000 - 18,000",
+      "isActive": true
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "role": "Chief Executive Officer",
+      "bio": "Sarah brings over 15 years of experience in non-profit management and social development, leading our strategic initiatives globally.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "socialLinks": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "2",
+      "name": "David Chen",
+      "role": "Operations Director",
+      "bio": "David oversees our ground operations and ensures that our field teams are equipped and supported to deliver maximum impact.",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "socialLinks": {
+        "linkedin": "#"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Priya Sharma",
+      "role": "Community Outreach Head",
+      "bio": "Priya is passionate about grassroots development and has successfully launched over 50 community-driven programs.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "socialLinks": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Michael Osei",
+      "role": "Financial Controller",
+      "bio": "With a background in international finance, Michael ensures our resources are managed transparently and efficiently.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      "socialLinks": {
+        "linkedin": "#"
+      }
+    }
+  ],
+  "featuredMoments": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
+      "text": "Partnering with State Health Ministry for rural healthcare access"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop",
+      "text": "Awarded \"Best NGO Platform 2026\" at the National Social Impact Summit"
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1511632765486-a01c80cb2628?q=80&w=2070&auto=format&fit=crop",
+      "text": "Launch of the \"Educate Every Child\" initiative with leading philanthropists"
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?q=80&w=2070&auto=format&fit=crop",
+      "text": "Celebrating our milestone: 10,000 successful campaigns completed"
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1531545514256-b1400bc00f31?q=80&w=1974&auto=format&fit=crop",
+      "text": "Inauguration of the free mobile clinic program across 5 states"
+    }
+  ]
+}

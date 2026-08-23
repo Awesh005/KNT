@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Outfit", sans-serif;
+  /* Alternatively, if we wanted to import Google Fonts, we could do it in index.html, but let's stick to Inter for now */
+  --font-serif: "Playfair Display", "Merriweather", serif;
+  
+  --color-charcoal: #0F1A16;
+  --color-deep-green: #044C24;
+  --color-goldenrod: #CB9C3B;
+  --color-fog-gray: #F6F7F6;
+  --color-lichen: #98A395;
+  --color-light-green: #F3F8F5;
+  --color-soft-green: #E8F3EC;
+  --color-mint-green: #D6E8DE;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+}
+.scrollbar-none {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

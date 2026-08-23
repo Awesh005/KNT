@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS donations (
+  id VARCHAR(255) PRIMARY KEY,
+  donor_id VARCHAR(255) NOT NULL,
+  campaign_id INT NULL,
+  amount DECIMAL(15,2) NOT NULL,
+  tip_amount DECIMAL(15,2) DEFAULT 0.00,
+  payment_ref VARCHAR(255),
+  screenshot_url VARCHAR(255),
+  status ENUM('pending', 'verified', 'failed') DEFAULT 'pending',
+  donated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (donor_id) REFERENCES users(id) ON DELETE RESTRICT,
+  FOREIGN KEY (campaign_id) REFERENCES campaigns(id) ON DELETE SET NULL
+);

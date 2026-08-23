@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS payouts (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  campaign_id INT NOT NULL,
+  amount DECIMAL(10, 2) NOT NULL,
+  transfer_date DATE NOT NULL,
+  account_holder VARCHAR(255) NOT NULL,
+  account_details VARCHAR(255) NOT NULL,
+  transferred_to VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  deleted_at TIMESTAMP NULL DEFAULT NULL,
+  FOREIGN KEY (campaign_id) REFERENCES campaigns(id) ON DELETE CASCADE
+);

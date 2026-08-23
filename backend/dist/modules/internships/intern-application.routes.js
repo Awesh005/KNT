@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const intern_application_controller_1 = require("./intern-application.controller");
+const auth_middleware_1 = require("../../middleware/auth.middleware");
+const role_middleware_1 = require("../../middleware/role.middleware");
+const upload_middleware_1 = require("../../middleware/upload.middleware");
+const router = (0, express_1.Router)();
+router.post('/', upload_middleware_1.uploadJobApplicationFiles.single('resume'), intern_application_controller_1.internApplicationController.create);
+router.use(auth_middleware_1.protect);
+router.use((0, role_middleware_1.authorizeRoles)('Admin', 'Super Admin'));
+router.post('/admin', upload_middleware_1.uploadJobApplicationFiles.single('resume'), intern_application_controller_1.internApplicationController.create);
+router.get('/', intern_application_controller_1.internApplicationController.list);
+router.patch('/:id/status', intern_application_controller_1.internApplicationController.updateStatus);
+router.delete('/:id', intern_application_controller_1.internApplicationController.remove);
+exports.default = router;

@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS content_modules (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  type ENUM('certificate', 'partner', 'team', 'blog', 'gallery', 'program') NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  media VARCHAR(255) NULL,
+  description TEXT NULL,
+  is_published BOOLEAN DEFAULT TRUE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS cms_content (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  page_key VARCHAR(100) NOT NULL,
+  section_key VARCHAR(100) NOT NULL,
+  content JSON NOT NULL,
+  updated_by VARCHAR(255) NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE(page_key, section_key),
+  FOREIGN KEY (updated_by) REFERENCES users(id) ON DELETE SET NULL
+);
